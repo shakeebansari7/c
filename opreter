@@ -1,0 +1,43 @@
+/ Pre-increment operator
+// 30 Aug 2022
+#include <stdio.h>
+
+int main() {
+int i;
+i=4;
+printf("valur of i=%d\n",i);
+++i;
+printf("valur of i=%d\n",i);
+printf("_ _ _ _ _ _ _ _ _\n");
+int x;
+x=++i;
+printf("valur of i=%d\n",i);
+printf("valur of preincrement x=%d\n",x);
+
+
+    return 0;
+}
+
+
+
+
+
+// post-increment operator
+// 30 Aug 2022
+#include <stdio.h>
+
+int main() {
+int i;
+i=4;
+printf("valur of i=%d\n",i);
+i++;
+printf("valur of i=%d\n",i);
+printf("_ _ _ _ _ _ _ _ _\n");
+int x;
+x=i++;
+printf("valur of i=%d\n",i);
+printf("valur of postincrement x=%d\n",x);
+
+
+    return 0;
+}
