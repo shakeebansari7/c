@@ -6,7 +6,7 @@ int main() {
 int i;
 i=4;
 printf("valur of i=%d\n",i);
-i++;
+++i;
 printf("valur of i=%d\n",i);
 printf("_ _ _ _ _ _ _ _ _\n");
 int x;
