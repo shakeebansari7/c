@@ -1,0 +1,18 @@
+// pre increment
+#include <stdio.h>
+
+void main() {
+int a=5;
+int b=6;
+ printf("pre increment a=%d\n",a);
+ ++a;
+ printf("pre increment a=%d\n",a);
+ 
+ 
+// post increment
+
+ printf("post increment of b=%d\n",b);
+ b++;
+ printf("post increment of b=%d\n",b);
+return 0;
+}
