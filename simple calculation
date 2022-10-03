@@ -1,0 +1,40 @@
+//simple calculator
+//write a program to add,subtract,multiply&divisio two number accepeted from user by using switch 
+#include <stdio.h>
+void main(){
+int n1,n2,add,sub,mul,division,option;
+printf("enter first no.n1=");
+scanf("%d",&n1);
+printf("enter second no.n2=");
+scanf("%d",&n2);
+printf("\n manu");
+printf("\n 1=add");
+printf("\n 2=sub");
+printf("\n 3=mul");
+printf("\n 4=division");
+scanf("%d",&option);
+
+    switch(option)
+{    
+case 1:
+add=n1+n2;
+printf("addition n1&n2 %d",add);
+break;
+
+case 2:
+sub=n1-n2;
+printf("substraction n1&n2 %d",sub);
+break;
+
+case 3:
+mul=n1*n2;
+printf("multiplaction n1&n2 %d",mul);
+break;
+
+case 4:
+division=n1/n2;
+printf("division n1&n2 %d",division);
+break;
+
+}
+}
